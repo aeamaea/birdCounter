@@ -1,0 +1,65 @@
+body {
+    background-image: url("andy-tang-qjAIfAb8DQA-unsplash.jpg");
+    background-size: cover;
+    font-family: 'Helvetica Neue',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto auto;
+    max-width: 300px;
+    /* border: 1px solid yellow; */
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: darkolivegreen;
+    /* text-shadow: 1px 1px; */
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: darkolivegreen;
+    /* text-shadow: 1px 1px; */
+}
+
+p {
+    color: darkolivegreen;
+    font-size: 20px;
+    /* text-shadow: 1px 1px black; */
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#increment-btn {
+    background: burlywood;
+    opacity: 90%;
+    border-radius: 20px;
+}
+
+#save-btn {
+    margin-top: 5px;
+    background: olivedrab;
+    opacity: 80%;
+    border-radius: 20px;    
+}
+
